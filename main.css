@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+
+.section-one {
+    height: 860px;
+    background-color: #071828;
+}
+
+.section-one .content {
+    margin: 0 375px;
+    color: white;
+}
+
+.menu-bar {
+    align-items: center;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 480px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    margin-right: 24px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+}
+
+.nav a:hover,
+.visited {
+    color: #FB3B64
+}
+
+.red-button {
+    background-color: #FB3B64;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 12px;
+}
+
+.button h1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.section-one {
+    background-image: url('assets/phone.png'), url('assets/phone.png');
+    /* background-size: 1028px 578px; */
+    background-repeat: no-repeat;
+    background-position: 760px 160px, 1040px 100px;
+}
+
+.hero {
+    padding-top: 85px;
+}
+
+.hero-text {
+    width: 590px;
+}
+
+.hero-text>h1 {
+    font-size: 53px;
+    font-weight: 400;
+    margin-bottom: 51px;
+}
+
+.hero-text p {
+    margin-bottom: 35px;
+}
+
+.blue-button {
+    background-color: #08A6E4;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .button {
+    margin-right: 20px;
+}
+
+.ellipse {
+    position: absolute;
+    top: 370px;
+    left: -300px;
+    width: 610px;
+    height: 610px;
+}
+
+.section-two {
+    padding: 73px 375px;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 207px;
+}
+
+.about h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.text {
+    width: 550px;
+    margin-bottom: 60px;
+}
+
+.section-two p {
+    line-height: 28px;
+}
+
+.section-two {
+    height: 860px;
+    background-image:
+        url('./assets/undraw_organize_resume_utk-1.png'),
+        url('./assets/undraw_organize_resume_utk5\ \(1\).png'),
+        url('./assets/Group\ 6.png'),
+        url('./assets/ellipse.png');
+    background-repeat: no-repeat;
+    background-position: 1270px 340px, 1270px 340px, 1227px 315px, 1530px 225px
+}

@@ -1,5 +1,8 @@
 ### Description
 
-Простой лэндинг, свёрстанный по чужому дизайну. Линк на автора макета прикреплю как только найду.
+Простой лэндинг, свёрстанный по чужому дизайну.
+
+*Автор:* Shohagh Hossen
+*Link:* https://www.xdguru.com/matrix-app-landing-template-xd/
 
 *IN PROGRESS*

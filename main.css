@@ -49,6 +49,7 @@ a:visited {
 }
 
 .btn {
+    box-shadow: 0 3px 13px rgba(0,0,0,.2);
     display: inline-block;
     border-radius: 20px;
     width: 136px;
@@ -194,7 +195,7 @@ a:visited {
     text-align: center;
 }
 
-.about {
+.section__named {
     padding: 74px;
 }
 
@@ -213,6 +214,10 @@ a:visited {
     background-position: 43px center, 43px center, left 104px, right center;
 }
 
+.section-title {
+    text-align: center;
+}
+
 .section-title h1 {
     font-size: 36px;
     line-height: 55px;
@@ -229,7 +234,7 @@ a:visited {
 
 .block {
     width: 550px;
-    margin-bottom: 246px;
+    margin-bottom: 172px;
 }
 
 .text {
@@ -239,4 +244,136 @@ a:visited {
 .text p {
     line-height: 28px;
     font-size: 14px;
+}
+
+
+.banner {
+    padding-top: 73px;
+    padding-bottom: 97px;
+    background-blend-mode: darken;
+    background-image: url('./assets/img/phones.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: rgba(7,24,40,0.86);
+}
+
+.mini-hero {
+    width: 430px;
+    color: white;
+}
+
+.mini-hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 74px;
+    margin-bottom: 27px;
+}
+
+.mini-hero .line {
+    justify-content: space-around;
+}
+
+.showcase .section-title p{
+    margin-bottom: 9px;
+}
+
+.showcase-gallery {
+    height: 598px;
+    background-image: url('./assets/img/showcase.png');
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.line__centered {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.line__centered > div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.btn__small {
+    width: 40px;
+}
+.btn__small svg {
+    width: 16px;
+    height: 16px;
+}
+
+
+.features {
+    background-color: #F8F6F6;
+}
+
+.features .section-title p {
+    margin-bottom: 55px;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature {
+    overflow: hidden;
+    width: 368px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: box-shadow .2s ease-out;
+}
+
+.feature:hover {
+    box-shadow: 0 6px 13px rgba(0,0,0,.26);
+}
+
+.feature-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.feature-content .icon {
+    margin-bottom: 35px;
+}
+
+.feature-content .title {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.feature-content .description {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.feature-border {
+    height: 7px;
+}
+
+
+.feature:nth-child(1) .feature-border {
+    background-color: #4C60E1;
+}
+.feature:nth-child(2) .feature-border {
+    background-color: #FF5249;
+}
+.feature:nth-child(3) .feature-border {
+    background-color: #FFCDAC;
+}
+.feature:nth-child(4) .feature-border {
+    background-color: #FFE470;
+}
+.feature:nth-child(5) .feature-border {
+    background-color: #00D7CE;
+}
+.feature:nth-child(6) .feature-border {
+    background-color: #69BFF5;
 }

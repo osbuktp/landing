@@ -585,6 +585,9 @@ a:visited {
 }
 
 .banner-2 {
-    background-image: url('./assets/img/banner2.png');
     background-blend-mode: lighten;    
+    background-image: url('./assets/img/banner2.png');
+    background-size: auto auto;
+    background-position: left center;
+    background-color: rgba(7,24,40,0.95);
 }

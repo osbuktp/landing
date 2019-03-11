@@ -206,23 +206,26 @@ a:visited {
     padding: 74px;
 }
 
-.about {
-    overflow: hidden;
+
+.main {
+    background-image:
+        url('./assets/img/ellipse.png'),
+        url('./assets//img/hero.png');
+    background-repeat: no-repeat;
+    background-position: -25% 250%, 150% 200%;
 }
 
-.about-img {
-    position: absolute;
-    top: 225px;
-    right: -220px;
-    width: 913px;
-    height: 664px;
+.about .content,
+.main .content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
     background-image:
-        url('./assets/img/about1.png'),
-        url('./assets/img/about2.png'),
-        url('./assets/img/about3.png'),
-        url('./assets/img/ellipse.png');
+        url('./assets/img/about.png');
     background-repeat: no-repeat;
-    background-position: 43px center, 43px center, left 104px, right center;
+    background-position: 120% 100%;
 }
 
 .section-title {
@@ -420,7 +423,8 @@ a:visited {
     transition: box-shadow .2s ease-out;
 }
 
-.plan:hover, .plan:hover .btn {
+.plan:hover,
+.plan:hover .btn {
     box-shadow: 0 6px 13px rgba(0, 0, 0, .26);
 }
 
@@ -736,7 +740,8 @@ a:visited {
     border-radius: 21px;
     background-color: #FB3B64;
 }
-.c-icon svg{
+
+.c-icon svg {
     width: 24px;
     height: 24px;
 }

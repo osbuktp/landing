@@ -206,6 +206,10 @@ a:visited {
     padding: 74px;
 }
 
+.about {
+    overflow: hidden;
+}
+
 .about-img {
     position: absolute;
     top: 225px;
